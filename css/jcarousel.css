@@ -1,0 +1,95 @@
+/* jCarousel */
+
+.jcarousel { 
+  position: absolute;
+  top: calc(50% - 298.5px);
+  margin: 15px;
+  width: 567px;
+  height: 567px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .jcarousel {
+    top: calc(50vh - 50vw);
+    margin: 0;
+    width: 100vw;
+    height: 100vw;
+    background: rgb(16,16,16);
+  }
+}
+
+.jcarousel ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.jcarousel li {
+  display:inline-block;
+}
+
+.jcarousel img {
+  width: 567px;
+  height: 567px;
+  object-fit:cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .jcarousel img {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(16,16,16);
+  }
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -16.5px;
+  width: 34px;
+  height: 34px;
+  text-decoration: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.jcarousel-control-prev {
+  right: 73px; background: url(../images/prev.png) center no-repeat rgba(0,0,0,0.5);
+}
+
+.jcarousel-control-next {
+  right: 35px; background: url(../images/next.png) center no-repeat rgba(0,0,0,0.5);
+}
+
+@media (max-width: 480px) {
+  .jcarousel-control-prev {
+    right: 48px;
+  }
+  .jcarousel-control-next {
+    right: 10px;
+  }
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+  display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+  opacity: .25;
+  cursor: default;
+}
