@@ -1,0 +1,22 @@
+#parallax{ width:100%; height:100%; position: absolute; overflow: hidden; font-family: 'Open Sans', sans-serif; z-index:4;}
+
+.cloud1{ width: 1000px; position: absolute; left: 27%; margin-left: -350px; top: 50%; margin-top: -180px; text-align: center;}
+.cloud_img1{ width: 1000px; position:absolute; font-size: 30px; line-height: 30px; font-weight: 700; color: #fff;}
+
+.cloud2{ width: 1000px; position: absolute; left: 88%; margin-left: -350px; top: 50%; margin-top: -150px; text-align: center;}
+.cloud_img2{ width: 1000px; position:absolute; font-size: 40px; line-height: 40px; font-weight: 300; color: #fff;}
+
+.cloud3{ width: 1000px; position: absolute; left: 43%; margin-left: -350px; top: 50%; margin-top: -120px; text-align: center;}
+.cloud_img3{ width: 1000px; position:absolute; font-size: 30px; line-height: 30px; font-weight: 300; color: #fff; font-style: italic;}
+
+.cloud4{ width: 1000px; position: absolute; left: 11%; margin-left: -350px; top: 50%; margin-top: -50px; text-align: center;}
+.cloud_img4{ width: 1000px; position:absolute; font-size: 40px; line-height: 40px; font-weight: 300; color: #fff;}
+
+.cloud5{ width: 1000px; position: absolute; left: 21%; margin-left: -350px; top: 50%; margin-top: 50px; text-align: center;}
+.cloud_img5{ width: 1000px; position:absolute; font-size: 40px; line-height: 40px; font-weight: 300; color: #fff;}
+
+.cloud6{ width: 1000px; position: absolute; left: 35%; margin-left: -350px; top: 50%; margin-top: 150px; text-align: center;}
+.cloud_img6{ width: 1000px; position:absolute; font-size: 30px; line-height: 30px; font-weight: 700; color: #fff;}
+
+.cloud7{ width: 1000px; position: absolute; left: 39%; margin-left: -350px; top: 50%; margin-top: 200px; text-align: center;}
+.cloud_img7{ width: 1000px; position:absolute; font-size: 40px; line-height: 40px; font-weight: 700; color: #fff;}
